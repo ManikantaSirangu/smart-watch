@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: #232F3E;
+    text-align: center;
+}
+#icon{
+    position: relative;
+    bottom: 50%;
+    left: 44%;
+    display: none;
+}
+#icon > p{
+    color: white;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    transform: translateX(4%);
+    margin-top: 10px;
+}
+#heart{
+    color: #ca3d22;
+    background-color: black;
+    font-size: 50px;
+    animation: mymove 1s infinite;
+}
+@keyframes mymove{
+    0% {transform: scale(1.0,1.0);}
+    100% { transform: scale(1.20,1.20);}
+}
+#span{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    position: relative;
+    bottom: 50%;
+    left: 38%;
+    display: block;
+    width: 30px;
+}
+nav > img{
+    height: 80px;
+    width: 150px;
+}
+#blocks{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 50px;
+    margin-right: 200px ;
+    margin-left: 200px;
+    height: 400px
+}
+#block-1 > img{
+    height: 400px;
+    width: 400px;
+}
+#heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+#text{
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+#selectcolor{
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+#color-blocks{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+#color-blocks > div{
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+}
+#black{
+    background-color:#23211f ;
+}
+#red{
+    background-color:#ca3d22 ;
+}
+#blue{
+    background-color:#565681 ;
+}
+#purple{
+    background-color: #8a5362;
+}
+#pink{
+    background-color: #e9c7be;
+}
+#features{
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#buttons{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+#buttons > button{
+    background-color: lightgray;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+#buynow{
+    background-color: orange;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
